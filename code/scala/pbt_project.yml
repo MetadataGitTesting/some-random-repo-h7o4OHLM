@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: jon.barrows@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-03 17:15:17'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: null
@@ -74,4 +84,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Mrs__Sherita_Lynch:
+    name: Mrs__Sherita_Lynch
+    description: Really solid info
+    createdAt: '2022-02-03 17:15:17'
+    author: jon.barrows@gmail.com
